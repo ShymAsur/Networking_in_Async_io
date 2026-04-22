@@ -1,9 +1,10 @@
 #include <iostream>
 #include <olc_net.h>
-enum class customMsgTypes: uint32_t
+enum class customMsgTypes : uint32_t
 {
 	FireBullet,
-	MovePlayer
+	MovePlayer,
+	Value
 };
 
 int main() {
