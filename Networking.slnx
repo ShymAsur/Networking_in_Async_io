@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="NetClient/NetClient.vcxproj" Id="2d6e4e1b-f173-4b48-985d-43a07fd88d73">
+    <BuildDependency Project="NetCommon/NetCommon.vcxproj" />
+  </Project>
+  <Project Path="NetCommon/NetCommon.vcxproj" Id="53c77cd9-517b-4cd5-ad9b-80d011beec62" />
+  <Project Path="SimpleExample/SimpleExample.vcxproj" Id="4cbf052f-42e2-464e-a622-b1e77d51124c" />
+</Solution>
